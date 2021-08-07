@@ -7,5 +7,5 @@
         prevArrow:false,
         nextArrow:false
       });
-
+     
 })(jQuery);

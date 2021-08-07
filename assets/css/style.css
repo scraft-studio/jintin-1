@@ -35,7 +35,7 @@ ul{
 /* header area */
 .navbar-nav.menu-bar {
     margin-left: auto;
-    grid-gap: 40px;
+    grid-column-gap: 40px;
 }
 
 #header {
@@ -312,7 +312,6 @@ ul{
 }
 .servicesBoxForm {
     width: 40%;
-    position: relative;
     margin-left: -100px;
 }
 .servicesBoxImag {
@@ -372,3 +371,158 @@ ul{
     color: var(--main-color);
     font-size: 22px;
 }
+.best_image_box img {
+    max-width: 100%;
+    height: 100%;
+}
+.ourheader .blur-area {
+    background: rgba(0, 0, 0, 0.35);
+}
+.header_mid_content {
+    text-align: center;
+    max-width: 690px;
+    margin: auto;
+}
+.header_mid_content h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.7em;
+    color: #FFFFFF;
+    margin-bottom: 41px;
+}
+#footer {
+    padding-top: 40px;
+}
+#our-store {
+    padding: 100px 0;
+}
+#our-store .bar-img {
+    border-top: 4px solid var(--main-color);
+    height: 100px;
+    max-width: 293px;
+    margin: auto;
+}
+#our-store p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#vision .bar-img {
+    border-top: 4px solid var(--main-color);
+    height: 100px;
+    max-width: 293px;
+    margin: auto;
+}
+.vision_contet {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sign_up h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sign_up h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sign_up {
+    margin-bottom: 50px;
+}
+.signUPform {
+    text-align: center;
+}
+.signUPform h5 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 158.4%;
+    color: #EDD060;
+    text-align: left;
+}
+.signUPform {
+    max-width: 500px;
+    margin: auto;
+}
+.signform {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 20px;
+}
+.signform input {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 158.4%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #EDD060;
+    box-sizing: border-box;
+    border-radius: 44px;
+    background-color: transparent;
+    padding: 15px 50px;
+    text-align: left;
+}
+.input input {
+    width: 100%;
+    padding-left: 25px;
+}
+#vision {
+    padding-bottom: 100px;
+}
+@media only screen and (max-width: 992px){
+    #main-menu {
+        background-color: #000;
+    }
+    .banner-img {
+        grid-gap: 10px;
+    }
+    .best_selling_img {
+        grid-gap: 10px;
+    }
+    .servicesBoxImag img {
+        height: 500px;
+    }
+    .servicesBoxImag {
+        width: 50%;
+    }
+    .servicesBoxForm {
+        width: 50%;
+    }
+    .signform {
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .servicesBox {
+        display: inherit;
+    }
+    .servicesBoxImag {
+        width: 100%;
+    }
+    .servicesBoxForm {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    .footer_area img {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
