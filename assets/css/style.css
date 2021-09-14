@@ -191,7 +191,7 @@ ul{
     margin: auto;
     margin-bottom: 20px;
 }
-#testimonials .slick-dots {
+#header .slick-dots, #testimonials .slick-dots {
     position: absolute;
     bottom: -25px;
     display: block;
@@ -201,7 +201,7 @@ ul{
     list-style: none;
     text-align: center;
 }
-#testimonials .slick-dots li {
+#header .slick-dots li , #testimonials .slick-dots li {
     position: relative;
     display: inline-block;
     width: 20px;
@@ -210,7 +210,7 @@ ul{
     padding: 0;
     cursor: pointer;
 }
-#testimonials .slick-dots li button {
+#header .slick-dots li button, #testimonials .slick-dots li button {
     font-size: 0;
     line-height: 0;
     display: block;
@@ -224,7 +224,7 @@ ul{
     background: #656363;
     border-radius: 50%;
 }
-#testimonials .slick-dots li button::before {
+#header .slick-dots li button::before, #testimonials .slick-dots li button::before {
     font-family: 'slick';
     font-size: 6px;
     line-height: 15px;
@@ -241,11 +241,78 @@ ul{
     -moz-osx-font-smoothing: grayscale;
     font-size: 30px;
 }
-#testimonials .slick-dots li.slick-active button::before {
+#header .slick-dots li.slick-active button::before, #testimonials .slick-dots li.slick-active button::before {
     opacity: 1;
     color: #fff;
 }
 
+.ourheader.oursercive h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.7em;
+    color: #FFFFFF;
+    margin-bottom: 41px;
+}
+.servicess-box h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.boxContent {
+    background: #FFFFFF;
+    border-radius: 40px;
+    padding: 20px;
+    margin-bottom: 46px;
+}
+.boxContent p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.oursercive .slick-prev, .oursercive .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.oursercive .slick-next {
+    right: -25px;
+}
+.oursercive .slick-prev {
+    left: -25px;
+}
+.boxContent p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    max-width: 777px;
+}
 /* OUR SERVICES section area */
 #ourServices {
     padding: 100px 0;
@@ -344,7 +411,15 @@ ul{
 .us li a i {
     color:var(--main-color);
 }
-
+#our-services {
+    padding: 100px 0;
+}
+#our-services .bar-img {
+    border-top: 4px solid var(--main-color);
+    height: 100px;
+    max-width: 293px;
+    margin: auto;
+}
 .copyRightArea p {
     font-family: Rubik;
     font-style: normal;
@@ -380,7 +455,7 @@ ul{
 }
 .header_mid_content {
     text-align: center;
-    max-width: 690px;
+    max-width: 710px;
     margin: auto;
 }
 .header_mid_content h1 {
@@ -670,6 +745,12 @@ color: #FFFFFF;
 }
 
 @media only screen and (max-width: 768px){
+    .ourheader.oursercive h3 {
+        font-size: 20px;
+    }
+    .ourheader.oursercive p {
+        font-size: 16px;
+    }
     .servicesBox {
         display: inherit;
     }
