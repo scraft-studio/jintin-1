@@ -792,7 +792,22 @@ color: #FFFFFF;
     .oursercive .slick-prev {
         left: -5px;
     }
-    
+    element {
+        display: block;
+    }
+    #header .slick-dots, #testimonials .slick-dots {
+        position: absolute;
+        bottom: -25px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    .slick-dots {
+        left: -5px;
+    }
     .oursercive .slick-next {
         right: -5px;
     }
