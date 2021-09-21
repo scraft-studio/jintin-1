@@ -754,6 +754,7 @@ color: #FFFFFF;
     transition: 0.25s;
     background-color: transparent;
     text-decoration: none;
+    border-radius: 50px;
 }
 
 .fadebtn:hover {
